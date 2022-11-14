@@ -69,7 +69,7 @@ Feature: Hoover tests
 
 
 #Why doesn't this reach the wall ??  It stays one over on the North side and East side?  Off by one error?
-#  @hoover
+  @hoover
     Scenario: Test for the behaviour of the Hoover when given instructions to go outside Northernmost wall limits
       Given The roomsize 5 by 5, Hoover starting point of 4 and 4, and directions "NNNNNNNNNNNNNNNNNNNNNNNNNN"
       When I send a POST request to cleaning-sessions resource
