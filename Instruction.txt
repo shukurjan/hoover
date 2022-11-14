@@ -1,0 +1,10 @@
+TO RUN: 
+-from the CMD navigate to the root of the folder, 
+-then just type filename "LinuxShellFileToRun.sh" and hit enter 
+
+TO VIEW THE REPORTS:  
+-for pretty report, open in a browser the following file: 
+target/pretty-report/cucumber-html-reports/overview-failures.html
+
+-for the in-built report, open in a browser the following file: 
+target/built-in-report/built-in-report.html

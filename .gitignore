@@ -1,0 +1,15 @@
+.DS_Store
+*.iml
+/.idea/
+/out/
+/target/
+/bin/
+/test-output/
+*.docx
+
+
+*.png
+*.jpg
+*.jpeg
+
+#to remove unwanted folders or files retroactively -> git rm -r --cached <folder or file name>
